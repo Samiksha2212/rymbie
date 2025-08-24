@@ -1,0 +1,39 @@
+body {
+  background-color: #f9f9f9;
+  font-family: "Segoe UI", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.step-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Optional: Make progress bar smoother on mobile */
+@media (max-width: 576px) {
+  .step-icon {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
